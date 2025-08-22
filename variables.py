@@ -17,4 +17,5 @@ print(value_two)
 
 print = 3 # Not to be used like this
 
-
+name = input("Enter your name")
+print(name)

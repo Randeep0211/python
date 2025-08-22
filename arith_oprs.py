@@ -6,6 +6,7 @@
 # e.g - if quotient is 12.3 --> returns 12 
 # % is an modulus operator and returns remainder
 # ** operator is called exponential. 
+# When a boolean value is used with operator then True=1 & False=0
 
 # num_one = 74
 # num_two = 6
@@ -26,6 +27,9 @@ num_one = 76
 num_two = 5
 num_str_one = "Randeep"
 num_str_two = "Singh"
+var_one = True
+var_two = 0
+var_three = False
 # result = num_one + num_two
 # result = num_str_one + num_str_two
 # result = num_one - num_two
@@ -34,4 +38,6 @@ num_str_two = "Singh"
 # result = num_one // num_two
 # result = num_one % num_two
 # result = num_one ** num_two
+# result = var_one + var_two
+# result = var_two + var_three
 print(result)
