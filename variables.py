@@ -15,7 +15,17 @@ print(value_two)
 # This keywords should strictly not be used as variable names as good practices. 
 # This keywords even if declared as variables would be valid as there is no lock on them like JS. 
 
-print = 3 # Not to be used like this
+# print = 3 # Not to be used like this
 
-name = input("Enter your name")
-print(name)
+name = input("Enter your name : ")
+# print(name)
+
+value = input("Enter a value : ")
+# print(value)
+
+# How to substitute variables in a string statement.Just make sure to put 'f' before string in print()
+
+value_three = "Randeep"
+age = 30
+print(f"The name is {value_three} and age is {age}")
+
